@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 80px;
+    background-color: #ccf7cc;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    margin: 0;
+    justify-content: center;
+}
+
+.cell{
+    background-color: lightpink;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: calc(600px / 16);
+    height: calc(600px / 16);
+    box-sizing: border-box;
+}
